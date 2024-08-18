@@ -1,0 +1,15 @@
+{
+  "name": "Web Speech AI Chatbot Demo",
+  "description": "Simple AI Chat Bot Demo with Web Speech API",
+  "keywords": ["ai", "OpenAI", "bot", "w3c"],
+  "env": {
+    "APIAI_TOKEN": {
+      "description": "OpenAI Client access token",
+      "value": ""
+    },
+    "OpenAI_SESSION_ID": {
+      "description": "An arbitrary string",
+      "value": ""
+    }
+  },
+}

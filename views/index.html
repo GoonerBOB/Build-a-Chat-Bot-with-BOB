@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <title>Juri</title>
+</head>
+<body>
+
+  <!-- Chat Interface -->
+  <div class="c-container"> 
+    <div class="moveable-container"> <!-- New container for moving -->
+      <div class="card">
+        <button id="speech-btn">Talk to Juri</button>
+      </div>
+    </div>
+    <div id="chat-box" class="chat-box hidden">
+      <div class="output-you"></div>
+      <div class="output-bot"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js"></script>
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
